@@ -1,25 +1,37 @@
 package com.lambton;
 
 public class LambtonStringTools {
-    String s="Lambton";
-    String s2= new String();
 
 
 
     public void reversestring()
     {
-        for(int i=0;i<s.length();i++)
-        {
 
+            String s="lambton";
+
+            for(int i=0;i<=s.length()-1;i++)
+            {
+                System.out.print(s.charAt(i));
+            }
+            System.out.println("");
+
+            for(int i = s.length() - 1; i >= 0; --i) {
+                System.out.print(s.charAt(i));
+            }
         }
 
 
+    public void binarytodecimal()
+    {
+
     }
+
     public void replacestring()
     {
-        String s1="the dog jumped over the fence";
+        String s1="THE DOG JUMPED INTO THE FENCE";
         String s2="the";
         String s3="that";
+
         String replacestring=s1.replace(s2,s3);
     }
 
