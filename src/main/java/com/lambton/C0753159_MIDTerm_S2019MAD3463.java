@@ -7,6 +7,6 @@ public class C0753159_MIDTerm_S2019MAD3463 {
 
    s1.reversestring();
    s1.replacestring();
-   
+   s1.decimaltobinary("c");
     }
 }
