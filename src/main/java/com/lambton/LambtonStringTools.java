@@ -19,6 +19,7 @@ public class LambtonStringTools {
 
 
     public int decimaltobinary(String c) {
+        System.out.println(c);
         String str = "1000";
         double j = 0;
         for (int i = 0; i < str.length(); i++) {
@@ -34,6 +35,7 @@ public class LambtonStringTools {
 
         public char[] frequent(String q) {
         String str ="Hello How are You? Are You Fine";
+        System.out.println(frequent(q));
 
             int temp = 0;
             int count = 0;
@@ -68,7 +70,8 @@ public class LambtonStringTools {
             String s2 = "the";
             String s3 = "that";
 
-            String replacestring = s1.replace(s2, s3);
+            String replacestring= s1.replace(s2, s3);
+            System.out.println(replacestring);
         }
 
 
